@@ -85,7 +85,7 @@ describe("NFTMarketplace", async function () {
     });
   });
 
-  describe.only("Purchasing marketplace items", async function () {
+  describe("Purchasing marketplace items", async function () {
     let price = 2;
     const fee = (feePercent / 100) * price;
     let totalPriceInWei;

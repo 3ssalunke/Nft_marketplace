@@ -23,7 +23,7 @@ contract Marketplace is ReentrancyGuard {
     event Offered(
         uint256 itemId,
         address indexed nft,
-        uint256 tokentId,
+        uint256 tokenId,
         uint256 price,
         address indexed seller
     );
@@ -31,7 +31,7 @@ contract Marketplace is ReentrancyGuard {
     event Bought(
         uint256 itemId,
         address indexed nft,
-        uint256 tokentId,
+        uint256 tokenId,
         uint256 price,
         address indexed seller,
         address indexed buyer
