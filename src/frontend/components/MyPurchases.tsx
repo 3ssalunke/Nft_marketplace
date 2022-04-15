@@ -57,6 +57,7 @@ const MyPurchases = ({ marketplace, nft, account }: Props) => {
 
   useEffect(() => {
     loadPurchasedItems();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (loading)
